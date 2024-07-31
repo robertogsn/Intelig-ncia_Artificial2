@@ -1,0 +1,184 @@
+/* estilos da minha página*/
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white
+}
+
+/*geral*/
+.text-center{
+    text-align: center;
+}
+
+.margin-top-40px{
+    margin-top: 40px;
+}
+
+/*------------------------------*/
+.container-cabecalho{
+    text-align: center;
+    padding: 20px;
+    background-color: #041636;
+}
+
+.container-cabecalho h3{
+    font-weight: 600;
+    font-size: 2em;
+    color: #296ef0
+}
+
+
+/*------------------------------*/
+.container-navegacao{
+    text-align: center;
+    padding: 20px;
+    background-color:black;
+}
+.container-navegacao a{
+    font-size: 1.5;
+    margin: 50px;
+    text-decoration:none ;
+    color:#4897ff
+}
+.container-navegacao a:hover{
+    color:#ffffff
+}
+   /*------------------------------*/
+   .container-quem-somos{
+     background-color: #05192a;
+     overflow: auto;
+    }
+
+    .container-quem-somos .servico {
+        float: center;
+        margin: 60px auto;
+        background-color: #061f35;
+        width: 50%;
+        padding:50px;
+        border-radius: 10px;
+        text-align: center;
+    }
+    .container-quem-somos .servico .icone {
+         margin-bottom: 10px;
+    }
+
+    .container-quem-somos .servico-texto{
+        font-family: 'Courier New', Courier, monospace;
+        margin-top: 20px;
+        font-size: 1.2em;
+        color: #42a1fa;
+    }
+
+        .container-quem-somos .serviços-texto-realce {
+            color: white;
+            font-weight: bold;
+
+        }
+
+        /*-------------------------*/
+
+        footer {
+            text-align: center;
+            padding: 80px;
+            background-color: #02111f;
+            color: gray;
+        }
+
+
+        /*-------------------------*/
+        .container-servico-contactos{
+          background-color: #082946;
+          padding: 80px;
+          text-align: center;
+        }
+
+        .container-servico-contactos .botoes-servicos-contactos{
+         padding: 60px;   
+         text-align: center;
+        }
+
+        .botoes-servicos-contactos a{
+            display: block;
+            max-width: 200px;
+            text-decoration: none;
+            font-size: 1.2em;
+            background-color: #0f12cce7;
+            color: white;
+            padding: 20px 60px;
+            margin: 10px auto;
+            border-radius: 50px 50px ;
+           
+            
+        }
+          .botoes-servicos-contactos a:hover{
+            background-color: white;
+            color: black;
+          } 
+          .container-servico{
+            background-color:#05192a;
+            font-size: 1.1em;
+            padding: 60px;
+            overflow: auto;
+          }
+
+          .container-servico h1 {
+              font-size: 3em;
+              color: white;
+              margin-bottom: 20px ;
+          }
+          .container-servico h3 {
+            color: #3494eef5;
+            padding: 20px 0; 
+          }
+
+          .container-servico article {
+            width: 40%;
+            margin: auto;
+            float: center;
+          } 
+/*-------------------------------*/
+          .container-servico li {
+            margin-bottom: 20px;
+            margin-left: 50px;
+            color: white
+          }
+         
+            .container-contactos {
+                background-color:#05192a;
+                padding: 80px;
+                color: white;
+            }
+                .container-contactos h1 {
+                    font-size: 3em;
+                    margin-bottom: 20px;
+                }
+
+                .container-contactos h3 {
+                    font-size: 1.5em;
+                    padding: 20px;
+                    background-color: #08253f;
+                    color: white;
+                    margin: auto;
+                    border-radius: 10px;
+                    text-align: center;
+                    width: 40%;
+                    border: 1px solid#181111fd;
+                    margin-bottom: 20px;
+                    font-weight: 100;
+
+                }
+                    .container-contactos .contactos {
+                        display: block;
+                        font-size: 2em;
+                        text-decoration: none;
+                        color: #148dffc4;
+                        margin-bottom: 20px;
+                    }
+
+
